@@ -1,5 +1,8 @@
 # ⚡ GenAI Industrial Defect Synthesis Platform
 
+
+<img width="1536" height="1024" alt="1000039310" src="https://github.com/user-attachments/assets/8c1559f4-2de4-47b5-9139-f60fc57e03ac" />
+
 An industrial computer vision and Generative AI framework for synthesizing realistic defects on utility and power-grid infrastructure using:
 
 - Segment Anything Model (SAM)
