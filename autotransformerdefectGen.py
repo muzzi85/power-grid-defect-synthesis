@@ -10,7 +10,7 @@ image_path = "/Image2image generation/Anomaly detection images/2d/EPRI_Data_crop
 b_mask, img, sub_mask = mask_gen(modelSAM, image_path)
 
 ## generate defective image
-prompt = "damaged glass"
+prompt = "crack"
 guidance_scale_factor = 0.008
 num_inference_steps_factor = 100
 strength_factor = 1
