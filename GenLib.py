@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/muzzi/Image2image generation/Anomaly detection images")
+sys.path.append("/Image2image generation/Anomaly detection images")
 from ultralytics import YOLO
 from ultralytics import SAM
 from pathlib import Path
