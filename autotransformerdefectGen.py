@@ -2,11 +2,11 @@ from GenLib import models_upload, mask_gen, defect_gen
 import matplotlib.pyplot as plt
 
 ## load models 
-model_path = "/home/muzzi/Image2image generation/Anomaly detection images/sam2_b.pt"
+model_path = "/Image2image generation/Anomaly detection images/sam2_b.pt"
 modelSAM, pipe = models_upload(model_path)
 
 ## generate masks
-image_path = "/home/muzzi/Image2image generation/Anomaly detection images/2d/EPRI_Data_cropped/transformers/1 (4)_transformers_1.jpg"
+image_path = "/Image2image generation/Anomaly detection images/2d/EPRI_Data_cropped/transformers/1 (4)_transformers_1.jpg"
 b_mask, img, sub_mask = mask_gen(modelSAM, image_path)
 
 ## generate defective image
